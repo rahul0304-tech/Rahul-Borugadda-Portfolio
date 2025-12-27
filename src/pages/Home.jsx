@@ -34,13 +34,6 @@ const Home = () => {
             internships={internships}
             filter={internship => !internship.company.toLowerCase().includes('activity') && !internship.role.toLowerCase().includes('activity')}
           />
-          
-          <InternshipsSection 
-            title="Activities" 
-            id="activities" 
-            internships={internships}
-            filter={internship => internship.company.toLowerCase().includes('activity') || internship.role.toLowerCase().includes('activity')}
-          />
         </>
       )}
       

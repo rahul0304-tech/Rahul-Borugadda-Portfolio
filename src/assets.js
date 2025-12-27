@@ -1,77 +1,185 @@
 export const projects = [
   {
     id: 1,
+    title: "Visionary — AI Art Studio",
+    description: "A multi-agent AI-powered creative studio for generating cohesive visual and motion-based artwork from high-level creative briefs.",
+    detailedDescription: "Visionary is an advanced generative media studio built using a hierarchical multi-agent architecture. A central Director agent interprets abstract creative briefs and orchestrates specialized agents for image and motion generation. The system integrates Google’s Agent Development Kit with state-of-the-art generative models such as Gemini, Imagen, and Veo to produce consistent, high-quality multimedia outputs. This approach abstracts prompt engineering complexity and enables scalable, autonomous creative workflows.",
+    skillsLearned: [
+      "Multi-Agent System Design",
+      "Generative AI Pipelines",
+      "Google Agent Development Kit (ADK)",
+      "Prompt Orchestration",
+      "Full-Stack Development with TypeScript"
+    ],
+    challengesFaced: "Coordinating multiple AI agents while maintaining shared context and creative consistency across static and motion outputs was the primary challenge.",
+    solution: "Designed a hierarchical agent workflow with a Director agent responsible for task decomposition and context management, enabling smooth handoff between specialized generative agents.",
+    githubLink: "https://github.com/rahul0304-tech/Visionary-The-AI-Art-Studio",
+    demoLink: "https://visionary-rho-nine.vercel.app",
+    techStack: [
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
+      "Google ADK",
+      "Gemini",
+      "Imagen",
+      "Veo"
+    ],
+    category: "AI / Generative Media",
+    thumbnail: "https://images.unsplash.com/photo-1618773928121-c3223b6ce2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    gallery: [
+      "https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1612832021290-f1f1252d039d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    ],
+    featured: true
+  }
+  {
+    id: 2,
+    title: "MerchMaster — AI Product Design Studio",
+    description: "An AI-powered web application for generating photorealistic merchandise mockups using custom assets and generative models.",
+    detailedDescription: "MerchMaster is a professional-grade design studio that allows users to create realistic merchandise mockups by embedding logos and graphics into real-world product scenes. The application features an interactive canvas with drag-and-drop controls, layering, alignment, and perspective adjustments. It integrates Google GenAI image models to generate context-aware, high-resolution mockups suitable for marketing and product previews.",
+    skillsLearned: [
+      "Interactive UI Design",
+      "Generative AI Integration",
+      "Canvas State Management",
+      "Prompt Engineering for Image Models",
+      "Frontend Architecture with React"
+    ],
+    challengesFaced: "Building a responsive, feature-rich canvas editor while maintaining performance and seamless AI generation was the core challenge.",
+    solution: "Implemented modular React components with custom hooks for canvas state, and integrated Google GenAI SDK to generate photorealistic outputs based on structured prompt inputs.",
+    githubLink: "https://github.com/rahul0304-tech/merch-master",
+    demoLink: "https://merch-master.vercel.app",
+    techStack: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Google GenAI SDK",
+      "Vite"
+    ],
+    category: "Web Application / AI",
+    thumbnail: "https://images.unsplash.com/photo-1581093588401-6510d38ad1ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    gallery: [
+      "https://images.unsplash.com/photo-1526403228230-2a5719c289f7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1616627980530-683f1f75746d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    ],
+    featured: false
+  }
+  {
+    id: 3,
+    title: "F1 Analysis Dashboard",
+    description: "A full-stack analytics dashboard for exploring and comparing Formula 1 race and driver performance data.",
+    detailedDescription: "The F1 Analysis Dashboard is a data-driven web application that enables in-depth analysis of Formula 1 races, sessions, and driver performance. Built with a Next.js frontend and a Flask backend backed by MongoDB, the platform offers interactive charts, lap-time comparisons, and season-level insights. The application is designed for both enthusiasts and analysts seeking detailed motorsport analytics.",
+    skillsLearned: [
+      "Full-Stack Development",
+      "REST API Design",
+      "Data Visualization",
+      "Database Modeling",
+      "Performance Optimization"
+    ],
+    challengesFaced: "Efficiently querying and visualizing large volumes of motorsport data while maintaining a smooth user experience.",
+    solution: "Designed optimized API endpoints and leveraged client-side data visualization libraries with structured backend responses to minimize latency.",
+    githubLink: "https://github.com/rahul0304-tech/F1-Analysis-Dashboard",
+    demoLink: "https://f1-analysis-dashboard.vercel.app",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Flask",
+      "MongoDB"
+    ],
+    category: "Web Application / Data Analytics",
+    thumbnail: "https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    gallery: [
+      "https://images.unsplash.com/photo-1534100968270-53a10ff3a03f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    ],
+    featured: false
+  }
+  {
+    id: 4,
     title: "AI SQL Assistant",
-    description: "An SQL Assistant using LLM for generating queries. This tool simplifies the process of creating complex SQL queries by using natural language processing to interpret user requirements and generate appropriate SQL code.",
-    detailedDescription: "Built a Streamlit - based data assistant that allows users to interact with structured datasets using natural language queries. Integrated AI-powered query generation to dynamically convert user prompts into SQL and fetch relevant insights from uploaded CSV/Excel files. Enabled support for various data sources, including local spreadsheets, and designed a user-friendly interface for data exploration. Implemented intelligent column and sheet recognition to automatically adapt queries based on file structure and content.", 
-    skillsLearned: ["Natural Language Processing", "Streamlit", "LLMs", "Prompt Engineering", "API Integration", "SQL Query Optimization"],
-    challengesFaced: "The primary challenge was designing an effective prompt architecture that would generate well-structured, efficient SQL queries without hallucinations or syntax errors.",
-    solution: "I implemented a context-aware prompting system with examples and constraints that guide the language model to produce clean, optimized SQL code. The system also includes validation mechanisms to ensure the generated queries follow proper syntax and best practices.",
+    description: "An AI-powered SQL assistant that generates optimized SQL queries from natural language prompts.",
+    detailedDescription: "Built a Streamlit-based data assistant that allows users to interact with structured datasets using natural language queries. The system dynamically converts user prompts into SQL, executes queries on uploaded CSV or Excel files, and returns insights. It includes intelligent column detection, schema awareness, and prompt constraints to ensure accurate and efficient SQL generation.",
+    skillsLearned: [
+      "Natural Language Processing",
+      "LLMs",
+      "Prompt Engineering",
+      "Streamlit",
+      "SQL Optimization"
+    ],
+    challengesFaced: "Preventing hallucinated or inefficient SQL queries while maintaining flexibility for diverse datasets.",
+    solution: "Implemented a context-aware prompting strategy with schema constraints and validation logic to ensure syntactically correct and performant SQL output.",
     githubLink: "https://github.com/rahul0304-tech/AI-SQL-ASSISTANT-USING-LLM",
     demoLink: "https://connect-with-data.streamlit.app/",
-    techStack: ["Python", "StreamLit", "Large Language Models"],
-    category: "AI/ML",
+    techStack: [
+      "Python",
+      "Streamlit",
+      "Large Language Models"
+    ],
+    category: "AI / Data",
     thumbnail: "https://images.unsplash.com/photo-1607798748738-b15c40d33d57?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     gallery: [
       "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
     ],
     featured: true
-  },
+  }
   {
-    id: 2,
-    title: "COORDINATE",
-    description: "A social media web application using React and Appwrite. This platform allows users to connect, share content, and engage with each other in a responsive environment that works across all devices.",
-    detailedDescription: "Developed a cross-platform mobile application using Flutter and Dart to facilitate real-time sharing and retrieval ofgeographical coordinates. Integrated Firebase for secure cloud-based data storage and retrieval, enabling seamlesssynchronization across devices. Employed Google Maps API for intuitive location visualization. Demonstratedproficiency in mobile app development, backend integration, and real-time data handling.",
-    skillsLearned: ["React Component Architecture", "Backend as a Service (BaaS)", "Authentication Flow Design", "Responsive UI Development"],
-    challengesFaced: "Creating a responsive, performant application that handles real-time updates and maintains state consistency across multiple components was particularly challenging.",
-    solution: "Implemented a custom state management solution using React Context API and optimized rendering with memorization techniques. Used Appwrite's real-time subscriptions to ensure data consistency across the application.",
+    id: 5,
+    title: "Legal Text Classification App",
+    description: "A machine learning web application that classifies legal text into predefined categories using a fine-tuned BERT model.",
+    detailedDescription: "This application is deployed as a Hugging Face Space and provides an interface for classifying legal case text using a fine-tuned BERT-based model. Users can input legal content and receive predicted labels with confidence scores. The backend is implemented in Flask and leverages Hugging Face Transformers with safetensors for efficient inference.",
+    skillsLearned: [
+      "Natural Language Processing",
+      "Transformer Models",
+      "Model Deployment",
+      "Flask API Development",
+      "PyTorch"
+    ],
+    challengesFaced: "Deploying a transformer-based model in a constrained environment while ensuring fast and reliable inference.",
+    solution: "Optimized model loading using safetensors and streamlined the inference pipeline for deployment within Hugging Face Spaces.",
+    githubLink: "https://huggingface.co/spaces/me-rahulabhi/legal-text-classification-app",
+    demoLink: "https://huggingface.co/spaces/me-rahulabhi/legal-text-classification-app",
+    techStack: [
+      "Python",
+      "Flask",
+      "PyTorch",
+      "Hugging Face Transformers"
+    ],
+    category: "Machine Learning / NLP",
+    thumbnail: "https://images.unsplash.com/photo-1600172451381-2546a4a4f9b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    gallery: [
+      "https://images.unsplash.com/photo-1537432376769-00a6241da9c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1581091012184-7d28a1a5f7b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    ],
+    featured: false
+  }
+  {
+    id: 5,
+    title: "Coordinate App",
+    description: "A lightweight web application for visualizing and managing Cartesian coordinate points interactively.",
+    detailedDescription: "Coordinate App is a frontend-focused web application that allows users to input, visualize, and manipulate points on a 2D Cartesian plane. The application emphasizes clarity and interactivity, enabling users to understand coordinate geometry concepts through real-time plotting and updates. It is designed as an educational and utility tool, showcasing clean UI design, state management, and mathematical visualization in the browser.",
+    skillsLearned: [
+      "Frontend Development",
+      "Coordinate Geometry Visualization",
+      "State Management in React",
+      "UI Design for Educational Tools",
+      "Event Handling and Data Binding"
+    ],
+    challengesFaced: "Ensuring accurate plotting and smooth real-time updates of coordinates while keeping the UI intuitive and responsive was the main challenge.",
+    solution: "Implemented a structured coordinate system with controlled inputs and reactive state updates, allowing points to be rendered dynamically while maintaining mathematical accuracy.",
     githubLink: "https://github.com/rahul0304-tech/Coordinate_App",
-    demoLink: "https://coordinate-app.vercel.app/",
-    techStack: ["React", "JavaScript", "Appwrite", "Tailwind CSS"],
-    category: "Web Development",
-    thumbnail: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    gallery: [
-      "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "https://images.unsplash.com/photo-1611162618479-ee4a1f8d5be4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-    ],
-    featured: false
-  },
-  {
-    id: 3,
-    title: "Resume Parser",
-    description: "Flask application for parsing resumes into Excel worksheets using NLP techniques with Spacy and Torch. This tool extracts key information from resumes and organizes it into structured formats for easier review and comparison.",
-    detailedDescription: "The Resume Parser is an intelligent document processing solution that automates the extraction of relevant information from resumes in various formats (PDF, DOCX, TXT). Using advanced NLP techniques, it identifies and categorizes key details such as contact information, education, work experience, skills, and certifications into a structured Excel format for easy comparison and analysis.",
-    skillsLearned: ["Named Entity Recognition", "Document Processing", "Information Extraction", "Data Structuring"],
-    challengesFaced: "The main challenge was handling the wide variety of resume formats and structures while maintaining high accuracy in information extraction.",
-    solution: "Developed a custom NER model trained on resume data and implemented a multi-stage pipeline that first identifies document sections before extracting specific entities within each section. This hierarchical approach significantly improved extraction accuracy.",
-    githubLink: "https://github.com/rahul0304-tech/Resume_Parser",
     demoLink: "#",
-    techStack: ["Python", "Flask", "Spacy", "Torch"],
-    category: "Python",
-    thumbnail: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    gallery: [
-      "https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    techStack: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React"
     ],
-    featured: false
-  },
-  {
-    id: 4,
-    title: "CRM Application",
-    description: "CRM for Laptop Rentals using Salesforce technologies. This application streamlines the process of managing laptop rentals, tracking inventory, processing customer requests, and generating reports using Salesforce's robust CRM capabilities.",
-    detailedDescription: "This Salesforce-based CRM application was developed to manage the entire laptop rental lifecycle for corporate clients. It features inventory management with real-time availability tracking, automated rental agreements, maintenance scheduling, client communication tools, billing integration, and comprehensive reporting dashboards.",
-    skillsLearned: ["Salesforce Development", "Apex Programming", "Lightning Web Components", "Business Process Automation"],
-    challengesFaced: "Implementing a complex rental workflow with multiple approval stages, inventory status changes, and automated notifications while maintaining data integrity was the primary challenge.",
-    solution: "Designed a custom object model with robust validation rules and created process builders and flows to handle the different stages of the rental lifecycle. Leveraged Salesforce's platform events for real-time inventory updates and notifications.",
-    githubLink: "#",
-    demoLink: "#",
-    techStack: ["Salesforce", "Apex", "Lightning Web Components"],
-    category: "Salesforce",
-    thumbnail: "https://images.unsplash.com/photo-1589561253898-768105ca91a8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    category: "Web Application / Visualization",
+    thumbnail: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     gallery: [
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "https://images.unsplash.com/photo-1531973576160-7125cd663d86?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      "https://images.unsplash.com/photo-1509228468518-180dd4864904?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
     ],
     featured: false
   }

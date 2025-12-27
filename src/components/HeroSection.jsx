@@ -86,7 +86,7 @@ const HeroSection = ({ featuredProject }) => {
               variant="default"
               size="lg"
               className="bg-blue-600 hover:bg-blue-700 text-white flex items-center w-full sm:w-auto"
-              onClick={() => window.open("/ATS-Rahul-Resume.pdf", "_blank")}
+              onClick={() => window.open("/Resume___Full_Stack.pdf", "_blank")}
             >
               <i className="fas fa-download mr-2"></i> Resume
             </Button>

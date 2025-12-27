@@ -53,6 +53,142 @@ export class MemStorage implements IStorage {
   private initializeData() {
     // Add initial projects
     this.createProject({
+      title: "Legal Text Classification App",
+      description: "A web application that uses a fine-tuned BERT model to classify legal text into predefined categories.",
+      detailedDescription: "This Hugging Face Space implements a Flask-based web app that performs legal text classification using a custom fine-tuned BERT model. Users can enter legal text and receive the predicted class label, confidence score, and full probability distribution across legal categories. The backend loads a saved safetensors model and Fast Tokenizer to provide accurate and domain-specific classification results.",
+      skillsLearned: [
+        "Natural Language Processing (NLP)",
+        "Text Classification with Transformers",
+        "Model Deployment on Hugging Face Spaces",
+        "Flask Web App Integration",
+        "Using safetensors with PyTorch & Transformers"
+      ],
+      challengesFaced: "Integrating the NLP model with a responsive web interface in a lightweight environment while ensuring accurate tokenization, efficient inference, and model loading within a Hugging Face Space deployment.",
+      solution: "Built a Flask backend serving a classification endpoint that loads a custom BERT model and tokenizer stored within the Space. Parsed user text input into model tokens, performed inference on the GPU when available, normalized logits to probabilities, and returned clear classification results.",
+      githubLink: "https://huggingface.co/spaces/me-rahulabhi/legal-text-classification-app",
+      demoLink: "https://huggingface.co/spaces/me-rahulabhi/legal-text-classification-app",
+      techStack: [
+        "Python",
+        "Flask",
+        "PyTorch",
+        "Hugging Face Transformers",
+        "BERT Model",
+        "safetensors"
+      ],
+      category: "Machine Learning / NLP",
+      thumbnail: "https://images.unsplash.com/photo-1581093588401-6510d38ad1ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      gallery: [
+        "https://images.unsplash.com/photo-1600172451381-2546a4a4f9b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1581091012184-7d28a1a5f7b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1537432376769-00a6241da9c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      ],
+      featured: false
+    });
+
+    this.createProject({
+      title: "MerchMaster - AI Product Design Studio",
+      description: "A professional-grade web application for generating photorealistic merchandise mockups using generative AI.",
+      detailedDescription: "MerchMaster is a creative product marketing tool that enables users to embed logos, graphics, and imagery into merchandise like mugs, apparel, billboards, packaging, and more. It offers an interactive design studio with drag-and-drop canvas manipulation, smart alignment and layering controls, and AI-driven mockup generation using the Google GenAI Gemini models. Users can upload assets or generate them through prompts, design layouts on a customizable canvas, and render photorealistic high-resolution mockups using context-aware prompt construction.",
+      skillsLearned: [
+        "Full-stack React Development (TypeScript)",
+        "Generative AI Integration with Google GenAI SDK",
+        "Interactive UI/UX Design",
+        "Canvas Manipulation and State Management",
+        "Tailwind CSS for Responsive Design"
+      ],
+      challengesFaced: "Designing an interactive, visually intuitive canvas editor that supports drag-and-drop, layering, angle controls, and real-time AI-assisted mockup generation while maintaining responsiveness and performance presented significant UI/UX and architectural challenges.",
+      solution: "Built a modular React application using TypeScript and Tailwind CSS with reusable UI components for canvas manipulation. Integrated the Google GenAI SDK (`gemini-3-pro-image-preview`) to generate context-aware, photorealistic mockups based on layout and prompt cues. Managed complex state within a canvas editor using custom hooks and services.",
+      githubLink: "https://github.com/rahul0304-tech/merch-master",
+      demoLink: "https://merch-master.vercel.app",
+      techStack: [
+        "React (TypeScript)",
+        "Tailwind CSS",
+        "Google GenAI SDK",
+        "Vite",
+        "Lucide Icons"
+      ],
+      category: "Web Application / Generative AI",
+      thumbnail: "https://images.unsplash.com/photo-1581093588401-6510d38ad1ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      gallery: [
+        "https://images.unsplash.com/photo-1616627980530-683f1f75746d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1526403228230-2a5719c289f7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1573497491208-6b1acb260507?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      ],
+      featured: false
+    });
+    
+    this.createProject({
+      title: "Visionary — AI Art Studio",
+      description: "An autonomous multi-agent creative studio for generative media built on the Google Agent Development Kit and advanced generative models.",
+      detailedDescription: "Visionary is an AI-oriented creativity studio that streamlines generative art production by abstracting the complexity of prompt engineering and multi-model workflows. Instead of manually crafting prompts for individual models, the system uses a hierarchical multi-agent pipeline where a Director agent interprets high-level briefs and orchestrates specialized workers to generate static and motion assets using state-of-the-art generative models such as Gemini 2.5 Pro, Imagen 4.0, and Veo 3.0. This approach enables cohesive storytelling and multimedia output with minimal manual overhead.",
+      skillsLearned: [
+        "Multi-agent System Design",
+        "Generative AI Workflows",
+        "Google Agent Development Kit (ADK)",
+        "API Integration with Google Generative Models",
+        "Full-stack TypeScript + React"
+      ],
+      challengesFaced: "Managing state and context across multiple specialized AI agents and ensuring smooth handoff between static image and motion generation were core architectural challenges. Balancing asynchronous model calls with session consistency also required careful orchestration.",
+      solution: "Implemented a hierarchical agent system with a Director agent to decompose user briefs and delegate tasks to specialized Visual and Motion agents. Used custom tools to wrap generative model APIs and maintained session memory to tie outputs together for coherent multimedia results.",
+      githubLink: "https://github.com/rahul0304-tech/Visionary-The-AI-Art-Studio",
+      demoLink: "https://visionary-rho-nine.vercel.app",
+      techStack: [
+        "Google Agent Development Kit (ADK)",
+        "Gemini 2.5 Pro",
+        "Imagen 4.0",
+        "Veo 3.0",
+        "TypeScript",
+        "React",
+        "Tailwind CSS",
+        "Vite"
+      ],
+      category: "AI / Generative Media",
+      thumbnail: "https://images.unsplash.com/photo-1618773928121-c3223b6ce2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      gallery: [
+        "https://images.unsplash.com/photo-1612832021290-f1f1252d039d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      ],
+      featured: true
+    });
+
+    this.createProject({
+      title: "F1 Analysis Dashboard",
+      description: "A comprehensive interactive Formula 1 performance and race analytics dashboard combining a modern frontend with a RESTful Python backend to visualize and compare F1 data.",
+      detailedDescription: "The F1 Analysis Dashboard is a full-stack web application designed for Formula 1 fans, analysts, and data enthusiasts. It provides detailed, interactive visualizations and analytical tools to explore race meetings, sessions, driver statistics, lap performances, and tactical comparisons across seasons. Built with a decoupled architecture, the project uses a Next.js + TypeScript + Tailwind frontend that consumes data from a Flask backend connected to a MongoDB database. Users can browse high-level season summaries, analyze lap times, filter sessions, and overlay multiple drivers for side-by-side performance comparison.",
+      skillsLearned: [
+        "Full-stack Web Development",
+        "React (Next.js) with TypeScript",
+        "REST API Design with Flask (Python)",
+        "Database Management with MongoDB",
+        "Data Visualization (Chart.js, custom UI)",
+        "Responsive UI/UX Design (Tailwind CSS)"
+      ],
+      challengesFaced: "Integrating a responsive, interactive frontend with a data-rich backend API while ensuring performance and usability across complex analytical views was a core challenge. Modeling and querying performance data efficiently from MongoDB for dynamic lap and session comparisons required careful schema design and indexing.",
+      solution: "Adopted a decoupled architecture with clear API endpoints in the Flask backend for each analytical feature (drivers, sessions, records, comparisons). On the frontend, leveraged Next.js’s App Router and React state management with custom hooks to fetch and render data efficiently. Utilized Chart.js for flexible visualizations and Tailwind CSS for consistent styling across views.",
+      githubLink: "https://github.com/rahul0304-tech/F1-Analysis-Dashboard",
+      demoLink: "https://f1-analysis-dashboard.vercel.app",
+      techStack: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "React",
+        "Flask",
+        "Python",
+        "MongoDB",
+        "Chart.js"
+      ],
+      category: "Web Application / Data Analytics",
+      thumbnail: "https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      gallery: [
+        "https://images.unsplash.com/photo-1534100968270-53a10ff3a03f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      ],
+      featured: true
+    });
+    
+    this.createProject({
       title: "AI SQL Assistant",
       description: "An SQL Assistant using LLM for generating queries. This tool simplifies the process of creating complex SQL queries by using natural language processing to interpret user requirements and generate appropriate SQL code.",
       detailedDescription: "The AI SQL Assistant is a groundbreaking tool that bridges the gap between natural language and SQL database queries. By leveraging OpenAI's language model capabilities, the assistant interprets user requirements expressed in plain English and translates them into accurate SQL queries, eliminating the need for extensive SQL knowledge.",
@@ -90,107 +226,36 @@ export class MemStorage implements IStorage {
       featured: false
     });
 
-    this.createProject({
-      title: "Resume Parser",
-      description: "Flask application for parsing resumes into Excel worksheets using NLP techniques with Spacy and Torch. This tool extracts key information from resumes and organizes it into structured formats for easier review and comparison.",
-      detailedDescription: "The Resume Parser is an intelligent document processing solution that automates the extraction of relevant information from resumes in various formats (PDF, DOCX, TXT). Using advanced NLP techniques, it identifies and categorizes key details such as contact information, education, work experience, skills, and certifications into a structured Excel format for easy comparison and analysis.",
-      skillsLearned: ["Named Entity Recognition", "Document Processing", "Information Extraction", "Data Structuring"],
-      challengesFaced: "The main challenge was handling the wide variety of resume formats and structures while maintaining high accuracy in information extraction.",
-      solution: "Developed a custom NER model trained on resume data and implemented a multi-stage pipeline that first identifies document sections before extracting specific entities within each section. This hierarchical approach significantly improved extraction accuracy.",
-      githubLink: "#",
-      demoLink: "#",
-      techStack: ["Python", "Flask", "Spacy", "Torch"],
-      category: "Python",
-      thumbnail: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      gallery: [
-        "https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-        "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-      ],
-      featured: false
-    });
-
-    this.createProject({
-      title: "CRM Application",
-      description: "CRM for Laptop Rentals using Salesforce technologies. This application streamlines the process of managing laptop rentals, tracking inventory, processing customer requests, and generating reports using Salesforce's robust CRM capabilities.",
-      detailedDescription: "This Salesforce-based CRM application was developed to manage the entire laptop rental lifecycle for corporate clients. It features inventory management with real-time availability tracking, automated rental agreements, maintenance scheduling, client communication tools, billing integration, and comprehensive reporting dashboards.",
-      skillsLearned: ["Salesforce Development", "Apex Programming", "Lightning Web Components", "Business Process Automation"],
-      challengesFaced: "Implementing a complex rental workflow with multiple approval stages, inventory status changes, and automated notifications while maintaining data integrity was the primary challenge.",
-      solution: "Designed a custom object model with robust validation rules and created process builders and flows to handle the different stages of the rental lifecycle. Leveraged Salesforce's platform events for real-time inventory updates and notifications.",
-      githubLink: "#",
-      demoLink: "#",
-      techStack: ["Salesforce", "Apex", "Lightning Web Components"],
-      category: "Salesforce",
-      thumbnail: "https://images.unsplash.com/photo-1589561253898-768105ca91a8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      gallery: [
-        "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-        "https://images.unsplash.com/photo-1531973576160-7125cd663d86?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-      ],
-      featured: false
-    });
-
     // Add initial certifications
+    this.createCertification({
+      name: "Introduction to Career Skills in Data Analytics",
+      issuedBy: "Linkedin Learning",
+      date: "2025-07-08",
+      description: "A comprehensive program introducing data analytics techniques, statistical analysis, and machine learning fundamentals from LinkedIn Learning.",
+      skillsAcquired: ["Data Cleaning", "Exploratory Data Analysis", "Statistical Analysis", "Python for Data Science", "Machine Learning Basics"],
+      credentialLink: "https://drive.google.com/file/d/1UIEsbVNZbyYIAND47Qam1dsUCVOPBbhr/view?usp=drive_link",
+      certificateImage: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      icon: "fab fa-google"
+    });
+    
     this.createCertification({
       name: "Google Advanced Data Analytics",
       issuedBy: "Google",
       date: "2024-01-10",
       description: "A comprehensive program covering advanced data analytics techniques, statistical analysis, and machine learning fundamentals using Google's tools and platforms.",
       skillsAcquired: ["Data Cleaning", "Exploratory Data Analysis", "Statistical Analysis", "Python for Data Science", "Machine Learning Basics"],
-      credentialLink: "https://www.coursera.org/account/accomplishments/professional-cert/reference-id",
+      credentialLink: "https://coursera.org/verify/professional-cert/DYBATPKGKG6A",
       certificateImage: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       icon: "fab fa-google"
     });
 
     this.createCertification({
-      name: "AWS Data Engineering",
-      issuedBy: "Amazon Web Services",
-      date: "2023",
-      description: "Certification focused on designing, building, and maintaining data processing systems on AWS, covering data ingestion, transformation, and storage solutions.",
-      skillsAcquired: ["ETL Pipeline Design", "AWS Glue", "Amazon Redshift", "AWS Lambda", "Data Lake Architecture"],
-      credentialLink: "https://www.credly.com/badges/example-id",
-      certificateImage: "https://images.unsplash.com/photo-1573164574001-518958d9baa2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      icon: "fab fa-aws"
-    });
-
-    this.createCertification({
-      name: "AWS Data Analytics",
-      issuedBy: "Amazon Web Services",
-      date: "2023",
-      description: "Certification validating expertise in AWS data analytics services for extracting valuable insights from data, including storage, processing, and visualization.",
-      skillsAcquired: ["Amazon Athena", "AWS Kinesis", "Amazon QuickSight", "AWS Data Pipeline", "Amazon EMR"],
-      credentialLink: "https://www.credly.com/badges/example-id-2",
-      certificateImage: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      icon: "fab fa-aws"
-    });
-
-    this.createCertification({
-      name: "AWS AI-ML Virtual Internship",
-      issuedBy: "Amazon Web Services",
-      date: "2023",
-      description: "A virtual internship program focusing on applying AWS's AI and machine learning services to real-world business problems and use cases.",
-      skillsAcquired: ["Amazon SageMaker", "AWS Comprehend", "Amazon Rekognition", "AWS Forecast", "AI Model Deployment"],
-      credentialLink: "https://www.credly.com/badges/example-id-3",
-      certificateImage: "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      icon: "fab fa-aws"
-    });
-
-    this.createCertification({
-      name: "AWS Solutions Architecture",
-      issuedBy: "Amazon Web Services",
-      date: "2023",
-      description: "Certification validating the ability to design and deploy secure, robust, and scalable applications on AWS infrastructure following best practices.",
-      skillsAcquired: ["Cloud Architecture", "AWS Security", "High Availability Design", "Cost Optimization", "Migration Planning"],
-      credentialLink: "https://www.credly.com/badges/example-id-4",
-      certificateImage: "https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      icon: "fab fa-aws"
-    });
-
-    this.createCertification({
       name: "SQL for Data Science",
-      issuedBy: "Coursera",
+      issuedBy: "Great Learning",
       date: "2023",
       description: "A course focused on using SQL for data manipulation, extraction, and analysis specifically tailored for data science applications.",
       skillsAcquired: ["Advanced SQL Queries", "Data Filtering", "Aggregations", "Joins and Subqueries", "Window Functions"],
-      credentialLink: "https://www.coursera.org/account/accomplishments/verify/example-id",
+      credentialLink: "https://www.mygreatlearning.com/certificate/LBTMBKPG",
       certificateImage: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       icon: "fas fa-database"
     });
@@ -201,7 +266,7 @@ export class MemStorage implements IStorage {
       date: "2023",
       description: "A specialized course on designing efficient, scalable document data models for MongoDB that follow best practices for performance and functionality.",
       skillsAcquired: ["Document Schema Design", "Embedding vs. Referencing", "Index Optimization", "Data Access Patterns", "Schema Versioning"],
-      credentialLink: "https://university.mongodb.com/course_completion/example-id",
+      credentialLink: "https://university.mongodb.com/course_completion/MDB65syw16dj5",
       certificateImage: "https://images.unsplash.com/photo-1603126957599-74a804ac6e53?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       icon: "fas fa-database"
     });
@@ -212,7 +277,7 @@ export class MemStorage implements IStorage {
       date: "2023",
       description: "Certification demonstrating proficiency in using Microsoft Excel for data analysis, visualization, and business intelligence applications.",
       skillsAcquired: ["Advanced Formulas", "Pivot Tables", "Data Visualization", "Power Query", "Macros and VBA"],
-      credentialLink: "https://www.microsoft.com/en-us/learning/certification-example-id",
+      credentialLink: "https://coursera.org/verify/W9WGG9TDP92U",
       certificateImage: "https://images.unsplash.com/photo-1542621334-a254cf47733d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       icon: "fas fa-file-excel"
     });

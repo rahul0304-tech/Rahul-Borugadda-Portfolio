@@ -188,89 +188,117 @@ export const projects = [
 export const certifications = [
   {
     id: 1,
-    name: "Google Advanced Data Analytics",
-    issuedBy: "Google",
-    date: "2024-01-10",
-    description: "A comprehensive program covering advanced data analytics techniques, statistical analysis, and machine learning fundamentals using Google's tools and platforms.",
-    skillsAcquired: ["Data Cleaning", "Exploratory Data Analysis", "Statistical Analysis", "Python for Data Science", "Machine Learning Basics"],
-    credentialLink: "https://www.coursera.org/account/accomplishments/professional-cert/reference-id",
-    certificateImage: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    name: "5-Day AI Agents Intensive Course",
+    issuedBy: "Google × Kaggle",
+    date: "2025-12-18",
+    description: "An intensive hands-on program focused on designing, building, and orchestrating AI agents using modern LLM-based agent frameworks and Google AI tooling.",
+    skillsAcquired: [
+      "AI Agent Design",
+      "Multi-Agent Systems",
+      "LLM Orchestration",
+      "Prompt Engineering",
+      "Applied Generative AI"
+    ],
+    credentialLink: "#",
+    certificateImage: "/certificates/ai-agents-google.png",
     icon: "fab fa-google"
   },
   {
     id: 2,
-    name: "AWS Data Engineering",
-    issuedBy: "Amazon Web Services",
-    date: "2023",
-    description: "Certification focused on designing, building, and maintaining data processing systems on AWS, covering data ingestion, transformation, and storage solutions.",
-    skillsAcquired: ["ETL Pipeline Design", "AWS Glue", "Amazon Redshift", "AWS Lambda", "Data Lake Architecture"],
-    credentialLink: "https://www.credly.com/badges/example-id",
-    certificateImage: "https://images.unsplash.com/photo-1573164574001-518958d9baa2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    icon: "fab fa-aws"
+    name: "Google Advanced Data Analytics Professional Certificate",
+    issuedBy: "Google (Coursera)",
+    date: "2024-07-20",
+    description: "A professional certificate covering advanced data analytics concepts including statistics, regression, machine learning, and predictive modeling with hands-on assessments.",
+    skillsAcquired: [
+      "Advanced Data Analytics",
+      "Python for Data Science",
+      "Statistical Analysis",
+      "Regression Analysis",
+      "Machine Learning Fundamentals",
+      "Predictive Modeling"
+    ],
+    credentialLink: "https://coursera.org/verify/professional-cert/DYBATPKGKG6A",
+    certificateImage: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    icon: "fab fa-google"
   },
   {
     id: 3,
-    name: "AWS Data Analytics",
-    issuedBy: "Amazon Web Services",
-    date: "2023",
-    description: "Certification validating expertise in AWS data analytics services for extracting valuable insights from data, including storage, processing, and visualization.",
-    skillsAcquired: ["Amazon Athena", "AWS Kinesis", "Amazon QuickSight", "AWS Data Pipeline", "Amazon EMR"],
-    credentialLink: "https://www.credly.com/badges/example-id-2",
-    certificateImage: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    icon: "fab fa-aws"
+    name: "Introduction to Career Skills in Data Analytics",
+    issuedBy: "LinkedIn Learning",
+    date: "2025-07-08",
+    description: "A foundational course focused on career-oriented skills required for data analytics roles, including analytical thinking and industry expectations.",
+    skillsAcquired: [
+      "Data Analytics Fundamentals",
+      "Analytical Thinking",
+      "Tech Career Skills"
+    ],
+    credentialLink: "#",
+    certificateImage: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    icon: "fab fa-linkedin"
   },
   {
     id: 4,
-    name: "AWS AI-ML Virtual Internship",
-    issuedBy: "Amazon Web Services",
-    date: "2023",
-    description: "A virtual internship program focusing on applying AWS's AI and machine learning services to real-world business problems and use cases.",
-    skillsAcquired: ["Amazon SageMaker", "AWS Comprehend", "Amazon Rekognition", "AWS Forecast", "AI Model Deployment"],
-    credentialLink: "https://www.credly.com/badges/example-id-3",
-    certificateImage: "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    icon: "fab fa-aws"
+    name: "Salesforce Developer Virtual Internship",
+    issuedBy: "SmartInternz × Salesforce × AICTE",
+    date: "2024-07-02",
+    description: "An 8-week virtual internship focused on Salesforce development, automation, Apex programming, and Lightning Web Components with multiple Super Badges.",
+    skillsAcquired: [
+      "Salesforce Development",
+      "Apex Programming",
+      "Lightning Web Components (LWC)",
+      "Process Automation",
+      "Salesforce Security",
+      "API Integration"
+    ],
+    credentialLink: "https://skillwallet.smartinternz.com/internships/salesforce_certificates/ae5e3ce40e0404a45ecacaaf05e5f735",
+    certificateImage: "https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    icon: "fab fa-salesforce"
   },
   {
     id: 5,
-    name: "AWS Solutions Architecture",
-    issuedBy: "Amazon Web Services",
-    date: "2023",
-    description: "Certification validating the ability to design and deploy secure, robust, and scalable applications on AWS infrastructure following best practices.",
-    skillsAcquired: ["Cloud Architecture", "AWS Security", "High Availability Design", "Cost Optimization", "Migration Planning"],
-    credentialLink: "https://www.credly.com/badges/example-id-4",
-    certificateImage: "https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    icon: "fab fa-aws"
+    name: "MongoDB Data Modeling",
+    issuedBy: "MongoDB University",
+    date: "2024-05-15",
+    description: "A specialized certification focused on designing scalable and performant document schemas in MongoDB based on real-world access patterns.",
+    skillsAcquired: [
+      "MongoDB Schema Design",
+      "Index Optimization",
+      "Embedding vs Referencing",
+      "Data Modeling Best Practices"
+    ],
+    credentialLink: "#",
+    certificateImage: "https://images.unsplash.com/photo-1603126857599-74a804ac6e53?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    icon: "fas fa-database"
   },
   {
     id: 6,
     name: "SQL for Data Science",
-    issuedBy: "Coursera",
-    date: "2023",
-    description: "A course focused on using SQL for data manipulation, extraction, and analysis specifically tailored for data science applications.",
-    skillsAcquired: ["Advanced SQL Queries", "Data Filtering", "Aggregations", "Joins and Subqueries", "Window Functions"],
-    credentialLink: "https://www.coursera.org/account/accomplishments/verify/example-id",
+    issuedBy: "Great Learning Academy",
+    date: "2024-09",
+    description: "A hands-on course covering SQL concepts required for data science, including joins, aggregations, subqueries, and analytical queries.",
+    skillsAcquired: [
+      "SQL Queries",
+      "Joins and Subqueries",
+      "Aggregations",
+      "Data Analysis with SQL"
+    ],
+    credentialLink: "https://www.mygreatlearning.com/certificate/LBTMBKPG",
     certificateImage: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     icon: "fas fa-database"
   },
   {
     id: 7,
-    name: "MongoDB Modelling",
-    issuedBy: "MongoDB University",
-    date: "2023",
-    description: "A specialized course on designing efficient, scalable document data models for MongoDB that follow best practices for performance and functionality.",
-    skillsAcquired: ["Document Schema Design", "Embedding vs. Referencing", "Index Optimization", "Data Access Patterns", "Schema Versioning"],
-    credentialLink: "https://university.mongodb.com/course_completion/example-id",
-    certificateImage: "https://images.unsplash.com/photo-1603126957599-74a804ac6e53?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    icon: "fas fa-database"
-  },
-  {
-    id: 8,
-    name: "Microsoft Excel",
-    issuedBy: "Microsoft",
-    date: "2023",
-    description: "Certification demonstrating proficiency in using Microsoft Excel for data analysis, visualization, and business intelligence applications.",
-    skillsAcquired: ["Advanced Formulas", "Pivot Tables", "Data Visualization", "Power Query", "Macros and VBA"],
-    credentialLink: "https://www.microsoft.com/en-us/learning/certification-example-id",
+    name: "Introduction to Microsoft Excel",
+    issuedBy: "Coursera Project Network",
+    date: "2024-12-10",
+    description: "A practical project-based certification covering Excel fundamentals for data analysis and reporting.",
+    skillsAcquired: [
+      "Excel Formulas",
+      "Data Analysis",
+      "Spreadsheets",
+      "Data Visualization"
+    ],
+    credentialLink: "https://coursera.org/verify/W9WGG9TDP92U",
     certificateImage: "https://images.unsplash.com/photo-1542621334-a254cf47733d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     icon: "fas fa-file-excel"
   }

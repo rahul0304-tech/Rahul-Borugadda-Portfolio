@@ -238,24 +238,6 @@ export const certifications = [
   },
   {
     id: 4,
-    name: "Salesforce Developer Virtual Internship",
-    issuedBy: "SmartInternz × Salesforce × AICTE",
-    date: "2024-07-02",
-    description: "An 8-week virtual internship focused on Salesforce development, automation, Apex programming, and Lightning Web Components with multiple Super Badges.",
-    skillsAcquired: [
-      "Salesforce Development",
-      "Apex Programming",
-      "Lightning Web Components (LWC)",
-      "Process Automation",
-      "Salesforce Security",
-      "API Integration"
-    ],
-    credentialLink: "https://skillwallet.smartinternz.com/internships/salesforce_certificates/ae5e3ce40e0404a45ecacaaf05e5f735",
-    certificateImage: "https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    icon: "fab fa-salesforce"
-  },
-  {
-    id: 5,
     name: "MongoDB Data Modeling",
     issuedBy: "MongoDB University",
     date: "2024-05-15",
@@ -271,7 +253,7 @@ export const certifications = [
     icon: "fas fa-database"
   },
   {
-    id: 6,
+    id: 5,
     name: "SQL for Data Science",
     issuedBy: "Great Learning Academy",
     date: "2024-09",
@@ -287,7 +269,7 @@ export const certifications = [
     icon: "fas fa-database"
   },
   {
-    id: 7,
+    id: 6,
     name: "Introduction to Microsoft Excel",
     issuedBy: "Coursera Project Network",
     date: "2024-12-10",
@@ -311,55 +293,52 @@ export const internships = [
     company: "Indo Euro Synchronization",
     duration: "Feb 2024 - May 2024",
     description: [
-      "Completed a 3-month virtual internship as a Data Analyst",
-      "Acquired skills in Data Analysis using MS Excel Macros",
-      "Used Power BI and SQL for data-driven solutions"
+      "Completed a 3-month internship as a Data Analyst",
+      "Worked with structured datasets using Excel, SQL, and Power BI",
+      "Focused on reporting, automation, and data-driven insights"
     ],
     responsibilities: [
-      "Analyzed large datasets to identify patterns and trends",
-      "Created automated reports using Excel Macros",
-      "Developed interactive dashboards in Power BI",
-      "Wrote SQL queries to extract and transform data",
-      "Presented findings to stakeholders"
+      "Analyzed datasets to identify trends and patterns",
+      "Created automated reports using Excel macros",
+      "Built interactive Power BI dashboards",
+      "Wrote SQL queries for data extraction and transformation",
+      "Presented insights to stakeholders"
     ],
     achievements: [
-      "Reduced reporting time by 40% through automation",
-      "Identified cost-saving opportunities worth $15,000 annually",
-      "Received commendation for exceptional analytical skills"
+      "Improved reporting efficiency through automation",
+      "Delivered actionable insights for business decisions"
     ],
     skillsGained: [
       "Advanced Excel",
       "Power BI",
       "SQL",
       "Data Visualization",
-      "Statistical Analysis"
+      "Data Analysis"
     ],
     companyLogo: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
   },
   {
     id: 2,
     role: "Salesforce Developer Intern",
-    company: "Salesforce",
-    duration: "Feb 2024 - May 2024",
+    company: "SmartInternz × Salesforce",
+    duration: "May 2024 - Jun 2024",
     description: [
-      "Gained knowledge in Salesforce Fundamentals",
-      "Learned Relationships and Process Automation",
-      "Built a CRM application for Laptop Rentals as a group project"
+      "Completed an 8-week Salesforce Developer virtual internship",
+      "Worked on Salesforce fundamentals, automation, and Apex",
+      "Developed a CRM application as a capstone project"
     ],
     responsibilities: [
-      "Developed custom objects and fields in Salesforce",
-      "Created process builders and flows for automation",
-      "Designed user interfaces using Lightning components",
-      "Implemented validation rules and security settings",
-      "Collaborated with team members on CRM project"
+      "Built custom objects, fields, and validation rules",
+      "Developed automation using flows and process builders",
+      "Worked with Apex and Lightning Web Components",
+      "Collaborated on CRM design and deployment"
     ],
     achievements: [
-      "Successfully deployed laptop rental CRM application",
-      "Awarded 'Best Project Implementation' in the program",
-      "Completed all Salesforce Trailhead modules with 100% score"
+      "Completed multiple Salesforce Super Badges",
+      "Successfully deployed a CRM application"
     ],
     skillsGained: [
-      "Salesforce Administration",
+      "Salesforce Development",
       "Apex Programming",
       "Lightning Web Components",
       "SOQL",
@@ -369,95 +348,54 @@ export const internships = [
   },
   {
     id: 3,
-    role: "Event Organizer",
-    company: "Extracurricular Activity",
-    duration: "2023",
+    role: "Data Science Intern",
+    company: "CODTECH IT SOLUTIONS",
+    duration: "Apr 2025 - Jul 2025",
     description: [
-      "Organized a communication workshop",
-      "Enhanced skills among participants",
-      "Fostered personal growth through leadership"
+      "Completed a 3-month Data Science internship",
+      "Actively participated in applied data science tasks",
+      "Worked on analytics and model-based problem solving"
     ],
     responsibilities: [
-      "Coordinated all aspects of a communication workshop for 50+ students",
-      "Managed a team of 5 volunteers",
-      "Created promotional materials and handled registration",
-      "Secured sponsorships and managed budget",
-      "Facilitated workshop sessions"
+      "Performed data preprocessing and analysis",
+      "Worked on data-driven problem statements",
+      "Applied Python-based data science techniques"
     ],
     achievements: [
-      "Received 4.8/5 satisfaction rating from participants",
-      "Completed the event under budget while meeting all objectives",
-      "Featured in college newsletter for exceptional organization"
+      "Successfully completed internship with strong evaluations"
     ],
     skillsGained: [
-      "Event Management",
-      "Leadership",
-      "Team Coordination",
-      "Budget Planning",
-      "Public Speaking"
+      "Data Science",
+      "Python",
+      "Data Analysis",
+      "Problem Solving"
     ],
-    companyLogo: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    companyLogo: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
   },
   {
     id: 4,
-    role: "Social Media Management",
-    company: "College Association",
-    duration: "2022 - 2023",
+    role: "Data Science Intern",
+    company: "OASIS INFOBYTE (AICTE OIB-SIP)",
+    duration: "Mar 2025 - Apr 2025",
     description: [
-      "Volunteered in college social media association",
-      "Responsible for content creation",
-      "Designed graphics for various college events"
+      "Completed a 1-month AICTE OIB-SIP internship in Data Science",
+      "Focused on practical exposure to data science workflows"
     ],
     responsibilities: [
-      "Managed social media accounts across multiple platforms",
-      "Created engaging content for daily posts",
-      "Designed graphics and visual assets for events",
-      "Analyzed engagement metrics and adjusted strategy",
-      "Collaborated with event committees for promotional campaigns"
+      "Worked on data analysis tasks",
+      "Applied foundational data science concepts",
+      "Completed assigned internship modules"
     ],
     achievements: [
-      "Increased social media engagement by 75% over one year",
-      "Grew follower count from 500 to 2000+ across platforms",
-      "Designed award-winning campaign for annual college festival"
+      "Received completion certificate with positive remarks"
     ],
     skillsGained: [
-      "Social Media Strategy",
-      "Graphic Design",
-      "Content Creation",
-      "Analytics",
-      "Digital Marketing"
+      "Data Science Fundamentals",
+      "Data Analysis",
+      "Analytical Thinking"
     ],
-    companyLogo: "https://images.unsplash.com/photo-1528642474498-1af0c17fd8c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-  },
-  {
-    id: 5,
-    role: "Content Creator",
-    company: "The Lavenders",
-    duration: "Mar 2024 - Present",
-    description: [
-      "Created and managed content",
-      "Focused on photography and videography",
-      "Developed creative visual storytelling skills"
-    ],
-    responsibilities: [
-      "Produce high-quality photography and videography content",
-      "Develop creative concepts for visual storytelling",
-      "Edit and optimize content for various platforms",
-      "Manage posting schedule and audience engagement",
-      "Collaborate with other creators for special projects"
-    ],
-    achievements: [
-      "Featured content reached over 50,000 views",
-      "Selected for collaboration with regional brands",
-      "Received recognition for innovative visual storytelling"
-    ],
-    skillsGained: [
-      "Photography",
-      "Videography",
-      "Adobe Creative Suite",
-      "Visual Storytelling",
-      "Content Strategy"
-    ],
-    companyLogo: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    companyLogo: "https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
   }
 ];
+
+

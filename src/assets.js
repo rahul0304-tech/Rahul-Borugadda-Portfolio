@@ -31,7 +31,7 @@ export const projects = [
       "https://images.unsplash.com/photo-1612832021290-f1f1252d039d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
     ],
     featured: true
-  }
+  },
   {
     id: 2,
     title: "MerchMaster — AI Product Design Studio",
@@ -62,7 +62,7 @@ export const projects = [
       "https://images.unsplash.com/photo-1616627980530-683f1f75746d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
     ],
     featured: false
-  }
+  },
   {
     id: 3,
     title: "F1 Analysis Dashboard",
@@ -93,7 +93,7 @@ export const projects = [
       "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
     ],
     featured: false
-  }
+  },
   {
     id: 4,
     title: "AI SQL Assistant",
@@ -122,7 +122,7 @@ export const projects = [
       "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
     ],
     featured: true
-  }
+  },
   {
     id: 5,
     title: "Legal Text Classification App",
@@ -152,9 +152,9 @@ export const projects = [
       "https://images.unsplash.com/photo-1581091012184-7d28a1a5f7b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
     ],
     featured: false
-  }
+  },
   {
-    id: 5,
+    id: 6,
     title: "Coordinate App",
     description: "A lightweight web application for visualizing and managing Cartesian coordinate points interactively.",
     detailedDescription: "Coordinate App is a frontend-focused web application that allows users to input, visualize, and manipulate points on a 2D Cartesian plane. The application emphasizes clarity and interactivity, enabling users to understand coordinate geometry concepts through real-time plotting and updates. It is designed as an educational and utility tool, showcasing clean UI design, state management, and mathematical visualization in the browser.",

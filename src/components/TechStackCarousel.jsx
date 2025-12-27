@@ -6,13 +6,13 @@ import { MdOutlineBrush } from 'react-icons/md';
 
 const techStack = [
   {
-    id: "react",
-    name: "React.js",
-    icon: "fab fa-react",
+    id: "python",
+    name: "Python",
+    icon: "fab fa-python",
     iconBg: "bg-blue-900",
-    iconColor: "text-blue-400",
-    description: "A JavaScript library for building user interfaces with a component-based architecture and efficient DOM updates through a virtual DOM.",
-    experience: "Used React for multiple web development projects, including the COORDINATE social media application. Proficient with hooks, context API, and state management."
+    iconColor: "text-yellow-300",
+    description: "A high-level programming language widely used in data science, backend development, and AI systems.",
+    experience: "Used extensively in data science internships and projects including NLP-based legal text classification, AI SQL Assistant, and multi-agent systems using Google ADK."
   },
   {
     id: "javascript",
@@ -20,35 +20,71 @@ const techStack = [
     icon: "fab fa-js",
     iconBg: "bg-yellow-700",
     iconColor: "text-yellow-400",
-    description: "A versatile programming language that enables interactive web pages and is an essential part of web applications.",
-    experience: "Strong foundation in ES6+ features, asynchronous programming with Promises and async/await, and DOM manipulation."
+    description: "A core web programming language enabling dynamic and interactive applications.",
+    experience: "Used for frontend development in React-based projects and full-stack applications."
   },
   {
-    id: "css",
-    name: "CSS",
-    icon: "fab fa-css3-alt",
-    iconBg: "bg-blue-800",
+    id: "react",
+    name: "React.js",
+    icon: "fab fa-react",
+    iconBg: "bg-blue-900",
     iconColor: "text-blue-400",
-    description: "Cascading Style Sheets language used for describing the presentation of a document written in HTML.",
-    experience: "Proficient in responsive design, Flexbox, Grid, and CSS frameworks like Tailwind CSS and Bootstrap."
+    description: "A component-based JavaScript library for building scalable user interfaces.",
+    experience: "Built interactive UIs for AI-driven platforms such as Visionary, Merch Master, and data dashboards."
   },
   {
-    id: "python",
-    name: "Python",
-    icon: "fab fa-python",
-    iconBg: "bg-blue-700",
-    iconColor: "text-yellow-300",
-    description: "A high-level programming language known for its readability and versatility in web development, data analysis, AI, and more.",
-    experience: "Used Python for data analysis, machine learning projects, web scraping, and backend development with Flask."
+    id: "nextjs",
+    name: "Next.js",
+    icon: "fas fa-layer-group",
+    iconBg: "bg-gray-900",
+    iconColor: "text-white",
+    description: "A React framework for building optimized, server-rendered web applications.",
+    experience: "Used in the Formula One Data Analytics Platform for building performant, full-stack dashboards."
   },
   {
-    id: "git",
-    name: "Git",
-    icon: "fab fa-git-alt",
-    iconBg: "bg-orange-800",
-    iconColor: "text-orange-500",
-    description: "A distributed version control system for tracking changes in source code during software development.",
-    experience: "Experienced with Git workflows, branching strategies, pull requests, and collaborative development."
+    id: "typescript",
+    name: "TypeScript",
+    icon: "fas fa-code",
+    iconBg: "bg-blue-800",
+    iconColor: "text-blue-300",
+    description: "A statically typed superset of JavaScript that improves code quality and maintainability.",
+    experience: "Used in modern frontend projects including Next.js applications for better scalability and type safety."
+  },
+  {
+    id: "tailwind",
+    name: "Tailwind CSS",
+    icon: "fas fa-paint-brush",
+    iconBg: "bg-cyan-900",
+    iconColor: "text-cyan-400",
+    description: "A utility-first CSS framework for rapid UI development.",
+    experience: "Used to design responsive and consistent user interfaces across multiple portfolio projects."
+  },
+  {
+    id: "node",
+    name: "Node.js",
+    icon: "fab fa-node-js",
+    iconBg: "bg-green-900",
+    iconColor: "text-green-400",
+    description: "A JavaScript runtime for building scalable backend services.",
+    experience: "Worked with REST APIs and backend services in full-stack applications."
+  },
+  {
+    id: "express",
+    name: "Express.js",
+    icon: "fas fa-server",
+    iconBg: "bg-gray-800",
+    iconColor: "text-gray-300",
+    description: "A minimal Node.js framework for building APIs and backend services.",
+    experience: "Used for creating RESTful APIs and backend routing logic."
+  },
+  {
+    id: "flask",
+    name: "Flask",
+    icon: "fas fa-flask",
+    iconBg: "bg-gray-900",
+    iconColor: "text-gray-300",
+    description: "A lightweight Python web framework for building APIs and web services.",
+    experience: "Used as backend for AI and data-driven projects including NLP classification and AI agent systems."
   },
   {
     id: "mongodb",
@@ -56,45 +92,62 @@ const techStack = [
     icon: "fas fa-database",
     iconBg: "bg-green-900",
     iconColor: "text-green-500",
-    description: "A NoSQL database that uses JSON-like documents with optional schemas for storing data.",
-    experience: "Designed and implemented MongoDB databases for web applications, with experience in data modeling and aggregation pipelines."
+    description: "A NoSQL document-based database for scalable applications.",
+    experience: "Used for data storage in AI-driven platforms and analytics dashboards."
+  },
+  {
+    id: "mysql",
+    name: "MySQL",
+    icon: "fas fa-database",
+    iconBg: "bg-blue-900",
+    iconColor: "text-blue-300",
+    description: "A relational database management system for structured data.",
+    experience: "Used in SQL-based data analysis and backend integrations."
   },
   {
     id: "sql",
     name: "SQL",
     icon: "fas fa-table",
-    iconBg: "bg-blue-900",
-    iconColor: "text-blue-400",
-    description: "A domain-specific language used for managing and querying relational databases.",
-    experience: "Proficient in writing complex queries, database design, and data manipulation across various SQL databases."
+    iconBg: "bg-indigo-900",
+    iconColor: "text-indigo-300",
+    description: "A language for querying and managing relational databases.",
+    experience: "Applied in data analysis projects and AI-powered SQL query generation systems."
   },
   {
-    id: "figma",
-    name: "Figma",
-    icon: "fab fa-figma",
-    iconBg: "bg-purple-900",
-    iconColor: "text-purple-400",
-    description: "A collaborative interface design tool used for UI/UX design, prototyping, and design systems.",
-    experience: "Created wireframes, mockups, and interactive prototypes for web applications and user interfaces."
+    id: "google-adk",
+    name: "Google ADK",
+    icon: "fab fa-google",
+    iconBg: "bg-red-900",
+    iconColor: "text-red-400",
+    description: "Google Agent Development Kit for building autonomous AI agent systems.",
+    experience: "Used to architect hierarchical multi-agent systems in Visionary and Merch Master projects."
   },
   {
-    id: "photoshop",
-    name: "Adobe Photoshop",
-    icon: "", // Clear the old icon class
-    iconComponent: MdOutlineBrush, // Assign the React Icon component
-    iconBg: "bg-blue-900",
-    iconColor: "text-blue-400",
-    description: "A raster graphics editor developed by Adobe used for image editing and creation.",
-    experience: "Used Photoshop for creating and editing images, designing UI elements, and preparing assets for web projects."
+    id: "git",
+    name: "Git & GitHub",
+    icon: "fab fa-github",
+    iconBg: "bg-gray-900",
+    iconColor: "text-white",
+    description: "Version control tools for collaborative software development.",
+    experience: "Used across all projects for version control, collaboration, and deployment workflows."
   },
   {
-    id: "powerbi",
-    name: "Power BI",
-    icon: "fas fa-chart-bar",
-    iconBg: "bg-yellow-900",
-    iconColor: "text-yellow-400",
-    description: "A business analytics service by Microsoft that provides interactive visualizations with self-service BI capabilities.",
-    experience: "Created interactive dashboards and reports for data analysis during the Data Analyst internship at Indo Euro Synchronization."
+    id: "postman",
+    name: "Postman",
+    icon: "fas fa-paper-plane",
+    iconBg: "bg-orange-900",
+    iconColor: "text-orange-400",
+    description: "An API testing and development tool.",
+    experience: "Used for testing REST APIs during backend and full-stack development."
+  },
+  {
+    id: "jupyter",
+    name: "Jupyter Notebook",
+    icon: "fas fa-book",
+    iconBg: "bg-orange-800",
+    iconColor: "text-orange-300",
+    description: "An interactive computing environment for data analysis and experimentation.",
+    experience: "Used during data science internships for analysis, visualization, and model experimentation."
   }
 ];
 

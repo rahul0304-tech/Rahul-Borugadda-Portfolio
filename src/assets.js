@@ -24,8 +24,8 @@ export const projects = [
       "Imagen",
       "Veo"
     ],
-    category: "AI / Generative Media",
-    thumbnail: "https://images.unsplash.com/photo-1618773928121-c3223b6ce2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    category: "AI",
+    thumbnail: "https://images.unsplash.com/photo-1599585795426-3390ee964f96?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fENyZWF0aXZlJTIwU3R1ZGlvfGVufDB8fDB8fHww",
     gallery: [
       "https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "https://images.unsplash.com/photo-1612832021290-f1f1252d039d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
@@ -55,8 +55,8 @@ export const projects = [
       "Google GenAI SDK",
       "Vite"
     ],
-    category: "Web Application / AI",
-    thumbnail: "https://images.unsplash.com/photo-1581093588401-6510d38ad1ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    category: "AI",
+    thumbnail: "https://images.unsplash.com/photo-1579664531470-ac357f8f8e2b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWVyY2hhbmRpc2V8ZW58MHx8MHx8fDA%3D",
     gallery: [
       "https://images.unsplash.com/photo-1526403228230-2a5719c289f7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "https://images.unsplash.com/photo-1616627980530-683f1f75746d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
@@ -87,7 +87,7 @@ export const projects = [
       "MongoDB"
     ],
     category: "Web Application / Data Analytics",
-    thumbnail: "https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    thumbnail: "https://images.unsplash.com/photo-1631392426516-affff6b1d41c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fEZvcm11bGElMjAxfGVufDB8fDB8fHww",
     gallery: [
       "https://images.unsplash.com/photo-1534100968270-53a10ff3a03f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
@@ -115,7 +115,7 @@ export const projects = [
       "Streamlit",
       "Large Language Models"
     ],
-    category: "AI / Data",
+    category: "AI",
     thumbnail: "https://images.unsplash.com/photo-1607798748738-b15c40d33d57?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     gallery: [
       "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
@@ -145,8 +145,8 @@ export const projects = [
       "PyTorch",
       "Hugging Face Transformers"
     ],
-    category: "Machine Learning / NLP",
-    thumbnail: "https://images.unsplash.com/photo-1600172451381-2546a4a4f9b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    category: "Machine Learning",
+    thumbnail: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fE1hY2hpbmUlMjBMZWFybmluZ3xlbnwwfHwwfHx8MA%3D%3D",
     gallery: [
       "https://images.unsplash.com/photo-1537432376769-00a6241da9c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "https://images.unsplash.com/photo-1581091012184-7d28a1a5f7b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
@@ -175,8 +175,8 @@ export const projects = [
       "JavaScript",
       "React"
     ],
-    category: "Web Application / Visualization",
-    thumbnail: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    category: "Web Application",
+    thumbnail: "https://plus.unsplash.com/premium_photo-1683977922495-3ab3ce7ba4e6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8U29jaWFsJTIwTWVkaWF8ZW58MHx8MHx8fDA%3D",
     gallery: [
       "https://images.unsplash.com/photo-1509228468518-180dd4864904?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
